@@ -1,0 +1,141 @@
+
+
+.barra-navegacion {
+    background-color: #333;
+    color: #fff;
+}
+
+.barra-navegacion ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-navegacion li {
+    margin-right: 20px;
+}
+
+.barra-navegacion a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.10s ease; 
+}
+
+.barra-navegacion a:hover {
+    text-decoration: underline;
+    color: #ffc107; 
+}
+
+
+body {
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.libro {
+    border: 1px solid #eeeeee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.libro:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+.libro:hover h2 {
+    color: #000000; 
+    transition: color 0.3s ease; 
+}
+.comprar-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.comprar-btn:hover {
+    background-color: #ffc107; 
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#vaciar-carrito {
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+#vaciar-carrito:hover {
+    background-color: red;
+    
+}
+
+#realizar-compra {
+    background-color: #333; 
+    color: #fff; 
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+#realizar-compra:hover {
+    background-color: green; 
+}
+
+.pie-de-pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Volver a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a.facebook i.fa-brands.fa-facebook,
+a.instagram i.fa-brands.fa-instagram {
+    font-size: 24px; 
+    color: #333; 
+    transition: transform 0.3s, color 0.3s; 
+}
+
+
+a.facebook:hover i.fa-brands.fa-facebook,
+a.instagram:hover i.fa-brands.fa-instagram {
+    transform: scale(1.2); 
+    color: #ffc107; 
+}
+
+/* Estilos específicos para dispositivos pequeños */
+@media (max-width: 768px) {
+    .libro {
+        padding: 0.5rem;
+    }
+}

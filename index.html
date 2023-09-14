@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda de Libros</title>
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <header>
+            <nav class="barra-navegacion">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    
+                    <li><a href="contactos.html">Contacto</a></li>
+                    
+                    <li><a href="QuienesSomos.html">Quiénes Somos</a></li>
+                </ul>
+            </nav>
+            <h1>Tienda de Libros</h1>
+        </header>
+        
+    </header>
+    
+    <main>
+        <section class="libros">
+            <div class="libro">
+                <img src="img/libro 1.jpg"  style="width: 300px; height: 300px;" alt="Libro 1">
+                <h2>Harry Potter y las reliquias de la muerte</h2>
+                <p>Autor: J. K. Rowling</p>
+                <p>Precio: $2500.00</p>
+                <button class="comprar-btn" data-precio="2500.00">Comprar</button>
+            </div>
+            <div class="libro">
+                <img src="img/libro 2.webp"  style="width: 300px; height: 300px;" alt="Libro 2">
+                <h2>En la mente de un genio infantil libro</h2>
+                <p>Andres Garcia</p>
+                <p>Precio: $1500.00</p>
+                <button class="comprar-btn" data-precio="1500.00">Comprar</button>
+            </div>
+            <div class="libro">
+                <img src="img/libro 3.webp"  style="width: 300px; height: 300px;" alt="Libro 3">
+                <h2>Alicia en el pais de las maravillas</h2>
+                <p>Lewis Carroll</p>
+                <p>Precio: $2000.00</p>
+                <button class="comprar-btn" data-precio="2000.00">Comprar</button>
+            </div>
+            <div class="libro">
+                <img src="img/libro 4.jpg"  style="width: 300px; height: 300px;" alt="Libro 4">
+                <h2>El Agrio</h2>
+                <p>Valerie Mrejes</p>
+                <p>Precio: $3000.00</p>
+                <button class="comprar-btn" data-precio="3000.00">Comprar</button>
+            </div>
+            <div class="libro">
+                <img src="img/libro 5.jpg"  style="width: 300px; height: 300px;" alt="Libro 5">
+                <h2>El misterio del cuarto amarillo</h2>
+                <p>Gaston Leroux</p>
+                <p>Precio: $1500.00</p>
+                <button class="comprar-btn" data-precio="1500.00">Comprar</button>
+            </div>
+            <div class="libro">
+                <img src="img/libro 6.png"  style="width: 300px; height: 300px;" alt="Libro 6">
+                <h2>Martin Firro</h2>
+                <p>jose Hernandez</p>
+                <p>Precio: $500.00</p>
+                <button class="comprar-btn" data-precio="500.00">Comprar</button>
+            </div>
+        </section>
+        <div class="libro hover">
+            
+        </div>
+        <section class="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="carrito-lista">
+            
+            </ul>
+            <p>Total: <span id="carrito-total">$0.00</span></p>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+            <button id="realizar-compra">Realizar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Libros</p>
+    </footer>
+    <footer>
+        <div class="pie-de-pagina">
+            <div class="Volver">
+                <a href="index.html">volver al principio</a>
+            </div>
+            <div class="contactos">
+                <a href="https://www.facebook.com/profile.php?id=100007448103536&mibextid=D4KYlr"class="facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com/carlos_velazquez589?igshid=OGQ5ZDc2ODk2ZA=="class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            
+            </div>
+        </div>
+    </footer>
+    
+
+    </footer>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+    <script src="main.js"></script>
+    <script src="carrito.js"></script>
+</body>
+</html>
